@@ -31,7 +31,7 @@ const App = () => {
       else if (progressData.progress !== "null"){
         setProgressstr(progressData.progress)
       }
-    }, 5000); //Time interval for checking progress
+    }, 3000); //Time interval for checking progress
 
     return () => clearInterval(intervalId); 
   }, [taskId]);
